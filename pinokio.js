@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "3.7",
   title: "Sana-Sprint-1.6B",
-  description: "",
+  description: "Sana is a text-to-image framework that can efficiently generate images",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
